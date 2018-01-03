@@ -87,3 +87,7 @@ italics {
 blue {
 	color: deepskyblue;
 }
+
+@railway {
+	font-family: 'Raleway', sans-serif;
+}
