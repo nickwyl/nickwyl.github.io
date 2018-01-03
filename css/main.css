@@ -15,7 +15,7 @@ body, html {
     width: 100%;
     height: 1024px;
     background-attachment: fixed;
-    position: relative;
+    position: absolute;
     top: 0px;  
   /*
   min-height: 100%;
