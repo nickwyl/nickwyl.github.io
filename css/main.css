@@ -14,6 +14,11 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+
+.banner {
+    background-image: url("DSC_0707 copy.JPG");
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
