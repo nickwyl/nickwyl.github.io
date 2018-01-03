@@ -5,13 +5,12 @@ body, html {
 }
 
 .banner {
-    background-image: url("images/DSC_0707 copy.JPG") no-repeat center center fixed;
+    background-image: url("images/DSC_2237 copy.jpg");
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-position: top center;
     width: 1024px;
     height: 100%;
+    background-attachment: fixed;
 }
 
 nav ul, footer ul {
