@@ -3,7 +3,7 @@ body, html {
   overflow: scroll;
   background-color: white;
 	
- margin-top: 15px;
+ margin-top: 0px;
  margin-right: 0px;
  margin-bottom: 0px;
  margin-left: 0px
@@ -36,7 +36,7 @@ body, html {
 
 nav {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 15px;
     list-style: none;
     font-weight: bold;
     display: flex;
