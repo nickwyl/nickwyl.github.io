@@ -16,7 +16,7 @@ body {
 }
 
 .banner {
-    background-image: url(images/"DSC_2237 copy.jpg");
+    background-image: url("images/DSC_2237 copy.jpg");
 }
 
 nav ul, footer ul {
