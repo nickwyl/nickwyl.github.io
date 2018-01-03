@@ -1,18 +1,7 @@
-html {
-  min-width: 100%;
-  min-height: 100%;
+body, html {
+  height: 100%;
   overflow: scroll;
-}
-
-body {
-  width: 1024px;
-  height: 2000px;
   background-color: white;
-}
-
-body {
-    margin: 60px auto;
-    width: 70%;
 }
 
 .banner {
