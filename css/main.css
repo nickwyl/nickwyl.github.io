@@ -87,3 +87,7 @@ blue {
 .PT-Sans {
 	font-family: 'PT Sans', sans-serif;
 }
+
+.banner.PT-Sans {
+	font-size: 56px;
+}
