@@ -1,50 +1,272 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Nick Wang's Almost First Webpage</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700,700i" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  
-  <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-      <a href="/software">Software</a>
-      <a href="/philosophy">Philosophy</a>
-      <a href="/notforgotten"><red>#notforgotten</red></a>
-    </nav>
+<html lang="en">
 
-    <div class="center-cropped">
-      <img id="banner" src="css/images/DSC_0707%20copy.JPG">
-      <h1 id="intro" class="PT-Sans"> <italics>Oh</italics>, <blue>hi</blue> there!</h1>
-      <h1 id="intro2" class="PT-Sans">Come <blue>join</blue> me!</h1>
-    </div>
+<head>
 
-    <div class="center-cropped2">
-      <img id="banner2" src="css/images/IMG_4904.jpg">
-      <br>
-      <br>
-      <br>
-      <h2 id="name" class="PT-Sans">
-        I'm <br> <br> <italics>Nick Wang</italics>
-      </h2>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Website">
+  <meta name="author" content="Nick Wang">
+
+  <title>Nick Wang's Website</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <a class="menu-toggle rounded" href="#">
+    <i class="fas fa-bars"></i>
+  </a>
+  <nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+      <li class="sidebar-brand">
+        <a class="js-scroll-trigger" href="#page-top">Hello.</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#page-top">Home</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#about">About</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="#contact">Contact</a>
+      </li>
+      <li class="sidebar-nav-item">
+        <a class="js-scroll-trigger" href="/notforgotten"><font color="red">#notforgotten</font></a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead d-flex">
+    <div class="container text-center my-auto">
+      <h1 class="mb-1" id="mb-1-position">Hello.</h1>
+      <a class="btn btn-primary btn-xl js-scroll-trigger" id="btn-primary-position" href="#about">Come join me!</a>
     </div>
+    <div class="overlay"></div>
+  </header>
     
-    <div class="big-box">
-      <section style="font-family:Palatino; font-size: 400%" id="blue-box"> I // 我 </section>
-      <section style="color: white; font-size: 50%" class="PT-Sans" id="blue-box1"> Was formerly a fetus,</section>
-      <section id="blue-box2"> LIVED IN TAIPEI, </section>
-      <section id="blue-box3"> Settled in <b>Beijing</b> for a while, </section>
-      <section id="blue-box4"> <em> Loved </em> my stay in London, </section>
-      <section id="blue-box5"> STUDY CS AND PHILOSOPHY IN NYU </section>
-      <section style="color: white" id="blue-box6"> Currently reside in <b><newyork>New York</newyork></b>... </section>
+    
+    
+   <!-- About -->
+  <section class="showcase" id="about">
+    <div class="container-fluid p-0">
+        
+      <div class="row no-gutters">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img">
+            <h2 id="name" class="PT-Sans">
+            I'm<br><br><italics>Nick Wang</italics>
+            </h2>
+        </div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <section style="font-family:Palatino; font-size: 400%" id="blue-box"> I // 我 </section>
+            <section style="color: white; font-size: 50%" class="PT-Sans" id="blue-box1"> Was formerly a fetus,</section>
+            <section id="blue-box2"> LIVED IN TAIPEI, </section>
+            <section id="blue-box3"> Might have started rooting for the <b>Brooklyn Nets</b> before 2019, </section>
+            <section id="blue-box4"> <em> Loved </em> my stay in London, </section>
+            <section id="blue-box5"> STUDY CS AND PHILOSOPHY IN NYU </section>
+            <section style="color: white" id="blue-box6"> Currently reside in <b><newyork>New York</newyork></b>... </section>
+        </div>
+      </div>
+ 
     </div>
+  </section>
 
-    <footer>
-        <a style="color: black" href="https://www.linkedin.com/in/nickwyl"><br>LinkedIn</a>
-      <a style="color: black" href="mailto:nwng168@yahoo.com"><br>Email</a>
-    </footer>
-  </body>
+    
+    
+  <!-- Services -->
+<!--
+  <section class="content-section bg-primary text-white text-center" id="services">
+    <div class="container">
+      <div class="content-section-heading">
+        <h3 class="text-secondary mb-0">Services</h3>
+        <h2 class="mb-5">What We Offer</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-screen-smartphone"></i>
+          </span>
+          <h4>
+            <strong>Responsive</strong>
+          </h4>
+          <p class="text-faded mb-0">Looks great on any screen size!</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-pencil"></i>
+          </span>
+          <h4>
+            <strong>Redesigned</strong>
+          </h4>
+          <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-like"></i>
+          </span>
+          <h4>
+            <strong>Favorited</strong>
+          </h4>
+          <p class="text-faded mb-0">Millions of users
+            <i class="fas fa-heart"></i>
+            Start Bootstrap!</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <span class="service-icon rounded-circle mx-auto mb-3">
+            <i class="icon-mustache"></i>
+          </span>
+          <h4>
+            <strong>Question</strong>
+          </h4>
+          <p class="text-faded mb-0">I mustache you a question...</p>
+        </div>
+      </div>
+    </div>
+  </section>
+-->
+
+<!--
+   Callout 
+  <section class="callout">
+    <div class="container text-center">
+      <h2 class="mx-auto mb-5">Welcome to
+        <em>your</em>
+        next website!</h2>
+      <a class="btn btn-primary btn-xl" href="https://startbootstrap.com/template-overviews/stylish-portfolio/">Download Now!</a>
+    </div>
+  </section>
+-->
+
+  <!-- Portfolio -->
+  <section class="content-section" id="portfolio">
+    <div class="container">
+      <div class="content-section-heading text-center">
+        <h3 class="text-secondary mb-0">Portfolio</h3>
+        <h2 class="mb-5">fun things</h2>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Arthur Schopenhauer</h2>
+                <p class="mb-0">Essay on the Will and the Thing-In-Itself!</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="css/images/schopen2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Dragon</h2>
+                <p class="mb-0">A dragon I tried rendering with ray tracing.</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="css/images/dragon.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Bunny</h2>
+                <p class="mb-0">A bunny I tried rendering with ray tracing. I know it looks bad, but I promise I'm still working on it.</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="css/images/bunny.png" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#">
+            <span class="caption">
+              <span class="caption-content">
+                <h2>Immanuel Kant</h2>
+                <p class="mb-0">The Mismatching Practical Implications of the Formula of Universality and Formula of Humanity</p>
+              </span>
+            </span>
+            <img class="img-fluid" src="css/images/kant3.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="content-section bg-primary text-white">
+    <div class="container text-center">
+      <h2 class="mb-4">Random Fact of the Month:</h2><h6>My favourite museum in New York is <italics>The Cloisters</italics></h6>
+<!--      <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>-->
+<!--      <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>-->
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section class="map">
+    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=The,+Cloisters,+New+York,+NY&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+    <br />
+    <small>
+      <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=The,+Cloisters,+New+York,+NY&amp;iwloc=A"></a>
+    </small>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer text-center" id="contact">
+    <div class="container">
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/nickwyl/" target="_blank">
+            <i class="icon-social-linkedin"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white mr-3" href="https://github.com/nickwyl" target="_blank">
+            <i class="icon-social-github"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link rounded-circle text-white third-list-inline-item" href="mailto:nwng168@gmail.com">
+            <span class="email">&#9993;</span>
+<!--              <i><span>&#9993;</span></i>-->
+          </a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Hosted with &hearts; on GitHub<br>Made with, most likely, even more <i class="fas fa-heart"></i> by Nick<br>Copyright &copy; 2019 <br></p>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
+</body>
+
 </html>
