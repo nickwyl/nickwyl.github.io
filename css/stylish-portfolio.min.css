@@ -148,3 +148,9 @@ span.email {
     position: relative;
     top: 6px;
 }
+
+.blog-button {
+    position: relative;
+    top: 54px;
+    margin: 0 auto;
+}
