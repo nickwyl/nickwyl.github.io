@@ -6,7 +6,7 @@
 #mb-1-position {
     position: relative;
     top: -210px;
-    font-size: 145px;
+    font-size: 9.05em;
     float: left;
     margin-right: 1000px;
 }
@@ -51,7 +51,7 @@ italics {
 
 .PT-Sans {
   font-family: 'PT Sans', sans-serif;
-  font-size: 112px;
+  font-size: 7em;
 }
 
 
