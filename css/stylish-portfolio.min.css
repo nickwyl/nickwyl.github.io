@@ -6,7 +6,7 @@
 #mb-1-position {
     position: relative;
     top: -210px;
-    font-size: 9.05em;
+    font-size: 14vw;
     float: left;
     margin-right: 1000px;
 }
@@ -153,4 +153,28 @@ span.email {
     position: relative;
     top: 54px;
     margin: 0 auto;
+}
+
+
+/*Phones */
+@media screen and (max-width: 480px) and (orientation: portrait){
+    .PT-Sans {
+      font-family: 'PT Sans', sans-serif;
+      font-size: 5em;
+    }
+}
+/* #### Phones Landscape */
+@media only screen /and (min-device-width: 481px) and (max-device-width: 736px) and (orientation: landscape) {
+    .PT-Sans {
+      font-family: 'PT Sans', sans-serif;
+      font-size: 5em;
+    }
+}
+
+/* ipad */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .PT-Sans {
+      font-family: 'PT Sans', sans-serif;
+      font-size: 5em;
+    }
 }
