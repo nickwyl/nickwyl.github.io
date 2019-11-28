@@ -6,7 +6,7 @@
 #mb-1-position {
     position: relative;
     top: -210px;
-    font-size: 14vw;
+    font-size: 9.05em;
     float: left;
     margin-right: 1000px;
 }
@@ -162,12 +162,26 @@ span.email {
       font-family: 'PT Sans', sans-serif;
       font-size: 6em;
     }
+    #mb-1-position {
+        position: relative;
+        top: -210px;
+        font-size: 5.05em;
+        float: left;
+/*        margin-right: 1000px;*/
+    }
 }
 /* #### Phones Landscape */
 @media only screen /and (min-device-width: 481px) and (max-device-width: 736px) and (orientation: landscape) {
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
       font-size: 6em;
+    }
+    #mb-1-position {
+        position: relative;
+        top: -210px;
+        font-size: 6.05em;
+        float: left;
+/*        margin-right: 1000px;*/
     }
 }
 
@@ -176,5 +190,12 @@ span.email {
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
       font-size: 6em;
+    }
+    #mb-1-position {
+        position: relative;
+        top: -210px;
+        font-size: 8.25em;
+        float: left;
+        margin-right: 500px;
     }
 }
