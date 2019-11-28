@@ -160,14 +160,14 @@ span.email {
 @media screen and (max-width: 480px) and (orientation: portrait){
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
-      font-size: 5em;
+      font-size: 6em;
     }
 }
 /* #### Phones Landscape */
 @media only screen /and (min-device-width: 481px) and (max-device-width: 736px) and (orientation: landscape) {
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
-      font-size: 5em;
+      font-size: 6em;
     }
 }
 
@@ -175,6 +175,6 @@ span.email {
 @media only screen and (min-width : 768px) and (max-width : 1024px) {
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
-      font-size: 5em;
+      font-size: 6em;
     }
 }
