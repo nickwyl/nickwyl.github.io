@@ -161,10 +161,12 @@ span.email {
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
       font-size: 6em;
+      position: relative;
+      top: 51px;
     }
     #mb-1-position {
         position: relative;
-        top: -210px;
+        top: -165px;
         font-size: 5.05em;
         float: left;
 /*        margin-right: 1000px;*/
@@ -175,10 +177,12 @@ span.email {
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
       font-size: 6em;
+      position: relative;
+      top: 11px;
     }
     #mb-1-position {
         position: relative;
-        top: -210px;
+        top: -185px;
         font-size: 6.05em;
         float: left;
 /*        margin-right: 1000px;*/
@@ -190,6 +194,8 @@ span.email {
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
       font-size: 6em;
+      position: relative;
+      top: 22px;
     }
     #mb-1-position {
         position: relative;
