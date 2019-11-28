@@ -51,7 +51,7 @@ italics {
 
 .PT-Sans {
   font-family: 'PT Sans', sans-serif;
-  font-size: 7em;
+  font-size: 7em;     
 }
 
 
@@ -160,13 +160,13 @@ span.email {
 @media screen and (max-width: 480px) and (orientation: portrait){
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
-      font-size: 6em;
+      font-size: 6.3em;
       position: relative;
-      top: 101px;
+      padding-top: 71px;
     }
     #mb-1-position {
         position: relative;
-        top: -160px;
+        top: -153px;
         font-size: 5.05em;
         float: left;
 /*        margin-right: 1000px;*/
@@ -176,13 +176,13 @@ span.email {
 @media only screen /and (min-device-width: 481px) and (max-device-width: 736px) and (orientation: landscape) {
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
-      font-size: 6em;
-      position: relative;
-      top: 19px;
+      font-size: 6.3em;
+/*      position: relative;*/
+/*      top: 19px;*/
     }
     #mb-1-position {
         position: relative;
-        top: -167px;
+        top: -137px;
         font-size: 6.05em;
         float: left;
 /*        margin-right: 1000px;*/
@@ -195,7 +195,7 @@ span.email {
       font-family: 'PT Sans', sans-serif;
       font-size: 6em;
       position: relative;
-      top: 35px;
+      padding-top: 40px;
     }
     #mb-1-position {
         position: relative;
