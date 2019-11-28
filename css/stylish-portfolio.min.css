@@ -160,9 +160,9 @@ span.email {
 @media screen and (max-width: 480px) and (orientation: portrait){
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
-      font-size: 6.4em;
+      font-size: 6.5em;
       position: relative;
-      padding-top: 51px;
+      padding-top: 44px;
     }
     #mb-1-position {
         position: relative;
