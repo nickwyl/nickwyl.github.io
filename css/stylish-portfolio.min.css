@@ -160,16 +160,27 @@ span.email {
 @media screen and (max-width: 480px) and (orientation: portrait){
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
-      font-size: 6.5em;
+      font-size: 6.7em;
       position: relative;
-      padding-top: 44px;
+      padding-top: 38px;
     }
     #mb-1-position {
         position: relative;
-        top: -153px;
+        top: -135px;
         font-size: 5.05em;
         float: left;
 /*        margin-right: 1000px;*/
+    }
+    #blue-box3 {
+      width: 100%;
+      height: 60px;
+          background:linear-gradient(90deg,rgba(255,255,255,.1) 0,rgba(255,255,255,.1) 100%);  
+      background-color: #03fff5;
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 60px;
+      font-size: 12px;
     }
 }
 /* #### Phones Landscape */
