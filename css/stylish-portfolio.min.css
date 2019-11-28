@@ -162,7 +162,7 @@ span.email {
       font-family: 'PT Sans', sans-serif;
       font-size: 6.7em;
       position: relative;
-      padding-top: 40px;
+      padding-top: 35px;
     }
     #mb-1-position {
         position: relative;
@@ -185,7 +185,7 @@ span.email {
 }
 
 /*Phones */
-@media screen and (max-width: 480px) and (orientation: landscape){
+@media only screen and (max-device-width: 480px) and (orientation: landscape){
     .PT-Sans {
       font-family: 'PT Sans', sans-serif;
       font-size: 6.7em;
